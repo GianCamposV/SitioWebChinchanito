@@ -1,0 +1,56 @@
+.d_cuerpo{
+	width: 100%;
+	padding: 120px 20px 20px 20px;
+	text-align: center;
+}
+.d_cuerpo label{
+	display: block;
+	margin: 20px 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: rgba(50, 70, 90, 1);
+	border-bottom: 2px solid rgba(50, 70, 90, 1);
+}
+.d_cuerpo li{
+	display: inline-block;
+	width: 360px;
+	height: 260px;
+	margin: 20px 20px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.d_item_lima{
+	background: url(../img/destinos/lima.jpg) center no-repeat;
+	background-size: cover;
+}
+.d_item_huancavelica{
+	background: url(../img/destinos/huancavelica.jpg) center no-repeat;
+	background-size: cover;
+}
+.d_item_ayacucho{
+	background: url(../img/destinos/ayacucho.jpg) center no-repeat;
+	background-size: cover;
+}
+.d_item_apurimac{
+	background: url(../img/destinos/apurimac.jpg) center no-repeat;
+	background-size: cover;
+}
+.d_item_cuzco{
+	background: url(../img/destinos/cuzco.jpg) center no-repeat;
+	background-size: cover;
+}
+.d_titulo{
+	font-size: 30px;
+	width: 100%;
+	height: 55px;
+	background: rgba(0, 0, 0, 0.6);
+	color: rgba(255, 255, 255, 1);
+	margin: 150px 0 0 0;
+	padding: 10px 0;
+}
+@media screen and (max-width: 440px){
+	.d_cuerpo li{
+		width: 90%;
+		background-size: all;
+	}
+}

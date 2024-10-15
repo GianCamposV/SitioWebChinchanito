@@ -1,0 +1,67 @@
+.i_cuerpo{
+	padding: 120px 20px 20px 20px;
+	text-align: center;
+}
+.c_label{
+	display: block;
+	margin: 20px 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: rgba(50, 70, 90, 1);
+	border-bottom: 2px solid rgba(50, 70, 90, 1);
+}
+form{
+	margin: 50px auto;
+	width: 500px;
+}
+form label{
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.6);
+	margin: 15px 0;
+	display: inline-block;
+	text-align: right;
+	width: 170px;
+	vertical-align: middle;
+}
+#nombre, #apellido, #telefono, #dni, #origen, #destino{
+	padding: 6px;
+	font-size: 15px;
+	width: 320px;
+	border: none;
+	border-bottom: 2px solid rgba(210, 175, 55, 0.9);
+	vertical-align: middle;
+	outline: none;
+}
+#btt_boleto{
+	width: 100px;
+	padding: 5px;
+	border: 2px solid rgba(210, 175, 55, 1);
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0);
+	color:  rgba(210, 175, 55, 1);
+	font-weight: bold;
+	margin: 20px 0 0 calc(100% - 100px);
+	cursor: pointer;
+	outline: none;
+}
+#btt_boleto:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+#btt_boleto:active{
+	background: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 570px){
+	form{
+		width: 100%;
+	}
+	form label{
+		font-size: 20px;
+		width: 140px;
+	}
+	#nombre, #apellido, #telefono, #dni, #origen, #destino{
+		font-size: 12px;
+		width: calc(100% - 145px);
+		border-radius: 10px;
+	}
+}

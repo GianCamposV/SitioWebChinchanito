@@ -1,0 +1,48 @@
+.t_cuerpo{
+	padding: 120px 20px 20px 20px;
+	text-align: center;
+}
+.t_cuerpo label{
+	display: block;
+	margin: 20px 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: rgba(50, 70, 90, 1);
+	border-bottom: 2px solid rgba(50, 70, 90, 1);
+}
+table{
+	border: 2px solid;
+	border-radius: 10px;
+	border-collapse: collapse;
+	display: inline-block;
+	overflow: hidden;
+	margin: 30px 0 0 0;
+}
+th{
+	min-width: 100px;
+	padding: 15px;
+	text-align: center;
+	background: rgba(210, 175, 55, 1);
+	border: 2px solid rgb(0, 0, 0, 1);
+	color: rgba(50, 70, 90, 1);
+}
+td{
+	padding: 15px;
+	text-align: center;
+	background: rgba(72, 138, 153, 0.9);
+	border: 2px solid rgb(0, 0, 0, 1);
+}
+.none{
+	background: rgba(50, 70, 90, 1);
+}
+.t_cuerpo p{
+	margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 716px){
+	table{
+		display: block;
+		overflow-x: auto;
+		margin: 50px 0 0 0;
+	}
+}

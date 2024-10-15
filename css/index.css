@@ -1,0 +1,43 @@
+.margen{
+	background: url("../img/fondo.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	padding: 100px 30px 30px 30px;
+	text-align: center;
+}
+.margen img{
+	width: 49%;
+	max-width: 720px;
+	margin: 10% auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+.descripcion{
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+	color: rgba(255, 255, 255, 0.8);
+}
+.d_titulo{
+	font-size: 50px;
+	color: gold;
+}
+.d_parrafo{
+	font-size: 20px;
+	color: white;
+}
+.d_precio{
+	font-size: 70px;
+}
+
+@media screen and (max-width: 620px){
+	.margen img{
+		width: 80%;
+		display: block;
+		margin: 10% 8%;
+	}
+	.descripcion{
+		width: 100%;
+		display: block;
+	}
+}
